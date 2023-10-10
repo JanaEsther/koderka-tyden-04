@@ -16,7 +16,8 @@ a {
 	display: block;
 	padding: 5px 15px;
 	color: white;
-	text-decoration: none;
+	
+	
 }
 
 a:hover {
@@ -26,12 +27,26 @@ a:hover {
 
 /* ---------------------------------------------------- */
 
-
-
-
-.menu{
-	display:flex;
+.hlavicka {
+	display: flex;
 	flex-direction: row;
-	list-style: none;
+	justify-content: space-between;
+	align-items: center;
 }
 
+.menu{
+	margin:0;
+	padding: 0;
+	display:flex;
+	flex-direction: row;
+	list-style-type: none;
+	
+}
+
+
+
+.menu a {
+	text-decoration: none;
+	
+}
+	

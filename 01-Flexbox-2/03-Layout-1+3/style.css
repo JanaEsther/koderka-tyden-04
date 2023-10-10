@@ -26,6 +26,7 @@ body {
 .prvni,
 .druhy,
 .treti {
-  flex-basis: 33%;
+  flex-basis: 33.333%;
+  flex-grow: 1;
 }
 
