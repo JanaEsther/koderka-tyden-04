@@ -10,28 +10,39 @@ body {
 
 /*-----------------------*/
 
-#/*kokos{
-	color:deeppink;*/ 
+
+/*.oranzova{
+	color:orange;
+	font-size: 100px;
+
+}*/
+
+
+
+
+.nadpis {
 	
-.oranzova{
-		font-size: 60px;
-		color:violet;
-
-
-.nadpis{
-	color:green;
-
+	color:blanchedalmond;
 }
 
+#kokos
+{
+	color:chartreuse;
+}
+
+
+
+*{
+	color:red;
+}
+
+
+div h1{
+	color:cyan;
 }
 
 h1{
-	color:blue;
+	color: magenta !important;
 }
-* {
-	color:red;
-
-}
-
 
 
