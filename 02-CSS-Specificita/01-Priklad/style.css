@@ -2,12 +2,36 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+
+
 body {
 	font: 16px/1.5 sans-serif;
 }
 
+/*-----------------------*/
+
+#/*kokos{
+	color:deeppink;*/ 
+	
+.oranzova{
+		font-size: 60px;
+		color:violet;
+
+
+.nadpis{
+	color:green;
+
+}
+
+}
 
 h1{
-	color:red;
+	color:blue;
 }
+* {
+	color:red;
+
+}
+
+
 
