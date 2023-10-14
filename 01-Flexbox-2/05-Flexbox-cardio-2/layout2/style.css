@@ -12,7 +12,8 @@ aside {
 }
 
 nav {
-	background: lightsteelblue;
+	background: #d1ebec;
+
 }
 
 /* -------------------------------------------- */
@@ -20,3 +21,41 @@ nav {
 /* -------------------------------------------- */
 
 
+header{
+	height: 80px;
+	width: 500px;
+}
+
+
+body{
+	display:flex;
+}
+
+.cream{
+	display: flex;
+	flex-direction:row;
+	height: 300px;
+}
+ 
+
+.article{
+flex-basis: 70%;
+
+}
+
+
+.aside{
+
+flex-basis: 30%;
+}
+
+nav{
+	height: 460px;
+	width:120px;
+}
+
+footer{
+	height: 80px;
+	width: 500px;
+
+}
