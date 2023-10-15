@@ -19,4 +19,47 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.celek{
 
+display: flex;
+flex-direction: row;
+}
+
+.tomato{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.pesto{
+	display: flex;
+	flex-direction: column;
+}
+
+.pasta,
+.pesto
+{
+	flex-basis: 80%;
+}
+
+.nav{
+	flex-basis:20%;
+}
+
+
+.olive{
+	display:flex;
+	flex-direction: row;
+}
+
+#pasta{
+	display: flex;
+	flex-direction: column;
+}
+
+.article{
+	order:1;
+}
+
+.footer{
+	order:2;
+}
