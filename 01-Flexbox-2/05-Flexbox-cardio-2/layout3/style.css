@@ -19,14 +19,30 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
-body{
+
+.celek{
 	display: flex;
-	flex-direction: column;
 }
 
-.pole{
+.centrum{
 	display: flex;
 	flex-direction: column;
+	flex-basis: 80%;
+
 }
 
+.nav{
+	flex-basis: 20%;
+	height: 460px;
+}
 
+.header,
+.footer{
+	flex-basis: 20%;
+	height: 80px;
+}
+
+.article{
+	flex-basis: 80%;
+	height: 300px;
+}
